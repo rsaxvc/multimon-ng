@@ -24,7 +24,7 @@
 #define SAMPLE_RATE 22050
 #define MS(x) ((float)(x)*SAMPLE_RATE/1000)
 
-extern const int costabi[0x400];
+extern const short costabi[0x400];
 
 #define COS(x) costabi[(((x)>>6)&0x3ffu)]
 
